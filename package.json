@@ -1,0 +1,19 @@
+{
+  "name": "@haixing_hu/jsdoc-minami",
+  "version": "1.3.0",
+  "description": "Clean and minimal JSDoc 3 Template / Theme",
+  "author": "Haixing Hu",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haixing-Hu/jsdoc-minami.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Haixing-Hu/jsdoc-minami/issues"
+  },
+  "homepage": "https://github.com/Haixing-Hu/jsdoc-minami",
+  "main": "publish.js",
+  "scripts": {
+    "deploy": "npm publish --registry='https://registry.npmjs.org/' --access public"
+  }
+}
