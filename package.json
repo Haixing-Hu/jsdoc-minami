@@ -1,6 +1,6 @@
 {
   "name": "@haixing_hu/jsdoc-minami",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Clean and minimal JSDoc 3 Template / Theme",
   "author": "Haixing Hu",
   "license": "Apache-2.0",
@@ -15,5 +15,10 @@
   "main": "publish.js",
   "scripts": {
     "deploy": "npm publish --registry='https://registry.npmjs.org/' --access public"
-  }
+  },
+  "dependencies": {
+    "jsdoc": "^4.0.2",
+    "taffydb": "^2.7.3"
+  },
+  "packageManager": "yarn@3.6.4"
 }
