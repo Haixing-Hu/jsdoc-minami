@@ -20,5 +20,5 @@
     "jsdoc": "^4.0.2",
     "taffydb": "^2.7.3"
   },
-  "packageManager": "yarn@3.6.4"
+  "packageManager": "yarn@4.0.2"
 }
