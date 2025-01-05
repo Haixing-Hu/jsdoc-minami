@@ -39,15 +39,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@haixing_hu/jsdoc-minami@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@haixing_hu/jsdoc-minami@workspace:."
-  dependencies:
-    jsdoc: "npm:^4.0.2"
-    taffydb: "npm:^2.7.3"
-  languageName: unknown
-  linkType: soft
-
 "@jsdoc/salty@npm:^0.2.1":
   version: 0.2.5
   resolution: "@jsdoc/salty@npm:0.2.5"
@@ -56,6 +47,15 @@ __metadata:
   checksum: b3f868457af175852403bc668422d8e5e83794e750717ddf91a9470f591c48a1079a48796a0deaedad8eda7b448b6f3a02700c05aff4aba299d2d578ee58fdf5
   languageName: node
   linkType: hard
+
+"@qubit-ltd/jsdoc-minami@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@qubit-ltd/jsdoc-minami@workspace:."
+  dependencies:
+    jsdoc: "npm:^4.0.2"
+    taffydb: "npm:^2.7.3"
+  languageName: unknown
+  linkType: soft
 
 "@types/linkify-it@npm:*":
   version: 3.0.3
