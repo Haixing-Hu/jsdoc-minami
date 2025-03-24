@@ -14,7 +14,7 @@
   "homepage": "https://github.com/Haixing-Hu/jsdoc-minami",
   "main": "publish.js",
   "scripts": {
-    "deploy": "npm publish --registry='https://registry.npmjs.com/' --access public"
+    "deploy": "npm publish --registry='https://npm.qubit.ltd/' --access public"
   },
   "dependencies": {
     "jsdoc": "^4.0.2",
