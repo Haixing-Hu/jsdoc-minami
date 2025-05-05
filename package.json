@@ -1,6 +1,6 @@
 {
   "name": "@qubit-ltd/jsdoc-minami",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Clean and minimal JSDoc 3 Template / Theme",
   "author": "Haixing Hu",
   "license": "Apache-2.0",
@@ -14,7 +14,9 @@
   "homepage": "https://github.com/Haixing-Hu/jsdoc-minami",
   "main": "publish.js",
   "scripts": {
-    "deploy": "npm publish --registry='https://npm.qubit.ltd/' --access public"
+    "deploy": "npm publish --registry='https://npm.qubit.ltd/' --access public",
+    "deploy:public": "npm publish --registry='https://registry.npmjs.org/' --access public",
+    "deploy:all": "npm run deploy && npm run deploy:public"
   },
   "dependencies": {
     "jsdoc": "^4.0.2",
